@@ -17,7 +17,7 @@ function runAnimation() {
         .to(cup, 2.5, {x: '+=170', y: '-= 12' , ease: Power2.easeInOut}, '+=0.0')
         .to(banner ,1, {autoAlpha: 1, ease: Power3.easeInOut}, '-=0.5')
         .to(banner, 1, {autoAlpha: 0, ease: Power3.easeInOut}, '+=0.5')
-        .to(cup, 1, {x: '-=110', y: '+=115', scale: 0.18, ease: Power1.easeInOut}, '-=0.5')
+        .to(cup, 1.5, {x: '-=110', y: '+=115', scale: 0.18, ease: Power1.easeInOut}, '-=0.5')
         .fromTo(spr, 0.8, {rotationX: 90, y: '-=50'}, {y: '+=100', rotationX: 0, ease: Power1.easeOut})
         //.to(spr, 1, {y: '+=50', ease: Power3.easeInOut})
         .to(spr, 1, {x: '-=50', ease: Power3.easeInOut})
